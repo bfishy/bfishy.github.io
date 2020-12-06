@@ -204,24 +204,38 @@ a.link-btn:focus {
     width: 100%;
 }
 
-@media (max-width: 320px) {  
+@media (max-width: 321px) {  
     .person-pic-box {width: 50%; margin-left: auto; margin-right: auto;}
     .subtitle-box {width: 100%; margin-right: 5%;}
-    .description { margin-right: 10% !important;}
-
+    .description { margin-right: 10% !important; margin-bottom: 30%;}
+    #title {
+        height: 200vh;
+    }
 }
 
 @media (min-width: 320px) {  
-    .person-pic-box {width: 50%; margin-left: auto; margin-right: auto;}
+    .person-pic-box {width: 50%; margin-left: auto; margin-right: auto; padding-top: 20%;}
     .subtitle-box {width: 100%; margin-right: 5%;}
-    .description { margin-right: 10% !important;}
+    .description { margin-right: 10% !important; margin-top: 10%; margin-bottom: 50%;}
+    #title {
+        height: 850px;
+    }
 
 }
 
-@media (max-width: 468px) {  
+@media (min-width: 410px) {  
+    .person-pic-box {width: 85%; margin-left: auto; margin-right: auto; padding-top: 20%;}
+    .subtitle-box {width: 85%; margin-right: auto;}
+    .description { margin-right: 10% !important; margin-top: 10%; margin-bottom: 35%;}
+    #title {
+        height: 150vh;
+    }
+}
+
+@media (min-width: 465px) {  
     .person-pic-box {width: 90%; margin-left: auto; margin-right: auto; padding-top: 20%;}
     .subtitle-box {width: 85%; margin-right: auto;}
-    .description { margin-right: 10% !important; margin-top: 10%;}
+    .description { margin-right: 10% !important; margin-top: 10%; margin-bottom: 20%;}
     #title {
         height: 120vh;
     }
