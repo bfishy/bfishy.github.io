@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../../css/bootstrap.css">
+  <link rel="stylesheet" href="style_page.css">
+  <link rel="stylesheet" href="../../css/hover.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/B.ico">
+
+  <!-- <title>Brandon Yu</title> -->
+  <title>Responsive Redesign</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="../../index.html">
+      <img src="img/B.png" height="40" alt="home button">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mr-3">
+        <li class="nav-item dropdown">
+          <div class="btn-group">
+              <a href="../../index.html#projects" class="nav-link pr-0 link-btn  hvr-underline-reveal">Projects</a>
+              <a href="#" class="btn btn-link nav-link dropdown-toggle dropdown-toggle-split pl-1 link-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Responsive Redesign</a>
+                <a class="dropdown-item" href="../iterative/iterative.html">Iterative Design</a>
+                <a class="dropdown-item" href="../development/development.html">Development</a>
+                <a class="dropdown-item" href="../persona/persona.html">Persona</a>
+              </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline-reveal px-0 mx-2" href="../../about.html">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- <div id="title" class="container-fluid bg-white py-5"> -->
+	<div class="wrapper">
+		<div id="title" class="d-flex flex-column py-5 align-items-center">
+			<h3 class="display-4 text-center mb-4 pb-2">Responsive Redesign</h3>
+			<img src="img/div.png" alt="text divider" class="mb-4" style="width: 3rem; height: 0.75rem;">
+			<p class="text-center">Redesigning a website for usability & accessibility
+      </p> 
+      <a style="text-decoration:none" href="https://calm-stream-72088.herokuapp.com/" target="_blank" class="text-light btn-lg mb-4 page-btn">View Full Project</a> 
+			<img src="./img/redesign_cover.png" alt="persona cover" class="cover">
+		</div>
+		<div class="d-flex flex-column pt-3 pb-4 align-items-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 problem">
+						<p class="lead">Problem Statement</p>
+					</div>
+					<div class="col-9">
+						<p class="">While an increasing amount of users are using not just laptops, but phones & tablets to browse websites, 
+              a lot of websites are capable of supporting a reponsive experience<br> 
+							How can we redesign a website so that it is usable & accessible to users on all kinds of devices?</p>
+					</div>
+				</div>
+			</div>
+			<div class="text-left">
+				<h3 class="mt-5 mb-4">Overview</h3>
+				<p>In this project, I redesign the official website of East Providence, RI.
+				</p>
+				<p>
+					This is an essential website for residents who want to learn about local policy updates, news, unemployment aid, information on tax filings & water bills, etc.
+        </p>
+        <p>Therefore, it is important that such a website is both usable & accessible; unfortunately, that is not the case.</p>
+        <p>Shown below is the website before vs after the redesign:</p>
+        <div class="container">
+          <div class="row">
+            <div class="col"><img src="img/homepage.png" alt="before" class="mid-pic"></div>
+            <div class="col"><img src="img/screenshot.png" alt="after" class="mid-pic"></div>
+          </div>
+        </div>
+			</div>
+    </div>
+    <div class="d-flex flex-column pt-3 pb-4 align-items-center">
+			<div class="text-left">
+				<h3 class="mt-5 mb-4">Problems</h3>
+				<p>
+          The original website exhinits a few problems, causing it to have low usability, learnability, memorability & accessiblity:
+        </p>
+        <ul class="ml-4">
+          <li><p>The COVID-19 emergency banner takes up 50% of the screen & is colored in an irritating bright red.</p></li>
+          <li><p>The title of the website “East Providence” is shown against a colorful background, decreasing readibility</p></li>
+          <li><p>Users don't know where to focus on because the enter of the website lacks focus and is packed with photos, videos & new articles
+          </p></li>
+          <li><p>Information/Links are scattered everywhere without clear grouping & organization</p></li>
+          <li><p>The website doesn't specify which langauge it is in its header file, which can make it difficult for screen readers to read the content in the appropriate language and/or translate it for visually-impaired users.</p></li>
+        </ul>
+
+        <h3 class="mt-5 mb-4">Design Iteration I: Lo-Fi Prototypes</h3>
+        <p>
+          I first constructed lo-fi prototypes for the redesigned webpage in desktop view, tablet view & phone view.</b>:
+        </p>
+        <p>Creating a lo-fi prototype allows us to make a decision on the general layout of the website, and how it would change responsively.</p>
+        <p>* For annotations on design choices, checkout the full project page linked above</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-5"><img src="img/lofi/Desktop.png" alt="before" class="mid-pic"></div>
+            <div class="col-4"><img src="img/lofi/Tablet.png" alt="before" class="mid-pic"></div>
+            <div class="col-3"><img src="img/lofi/Phone.png" alt="before" class="mid-pic"></div>
+          </div>
+        </div>
+
+        <h3 class="mt-5 mb-4">Design Iteration II: Hi-Fi Prototypes</h3>
+        <p>
+          I then constructed Hi-fi prototypes, paying more attention to details such as the color palette, buttons, etc.</b>:
+        </p>
+        <p>* For annotations on design choices, checkout the full project page linked above</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-5"><img src="img/desktop.png" alt="before" class="mid-pic"></div>
+            <div class="col-4"><img src="img/tablet.png" alt="before" class="mid-pic"></div>
+            <div class="col-3"><img src="img/phone.png" alt="before" class="mid-pic"></div>
+          </div>
+        </div>
+        
+
+        <h3 class="mt-5 mb-4">Key Conclusions</h3>
+        <ul class="ml-4">
+          <li><p>Responsive design is not just about adjusting font sizes; sometimes in order to make the look more natural and easier to navigate on different devices, 
+            we also need to reorder & reposition components in a different way.
+          </p></li>
+          <li><p>Going through numerous design iterations allows us to discover various types of usability issues at different stages, narrowing the scope one step at a time.</p></li>
+        </ul>
+			</div>
+		</div>
+	</div>
+  <!-- <div class="d-flex flex-column blankets" style="background: url(./img/persona_cover.png) center"></div> -->
+
+  <footer class="bg-white text-center py-3">
+    <div class="container">
+      <hr>
+      <p class="mb-0">
+        made in 25.0330° N, 121.5654° E
+      </p>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
