@@ -14,7 +14,7 @@
   <link rel="icon" href="img/B.ico">
 
   <!-- <title>Brandon Yu</title> -->
-  <title>Persona</title>
+  <title>Development</title>
 </head>
 
 <body>
@@ -36,8 +36,8 @@
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="../redesign/redesign.html">Responsive Redesign</a>
                 <a class="dropdown-item" href="../iterative/iterative.html">Iterative Design</a>
-                <a class="dropdown-item" href="../development/development.html">Development</a>
-                <a class="dropdown-item" href="#">Persona</a>
+                <a class="dropdown-item" href="#">Development</a>
+                <a class="dropdown-item" href="../persona/persona.html">Persona</a>
               </div>
           </div>
         </li>
@@ -50,12 +50,12 @@
   <!-- <div id="title" class="container-fluid bg-white py-5"> -->
 	<div class="wrapper">
 		<div id="title" class="d-flex flex-column py-5 align-items-center">
-			<h3 class="display-4 text-center mb-4 pb-2">Persona</h3>
+			<h3 class="display-4 text-center mb-4 pb-2">Development</h3>
 			<img src="img/div.png" alt="text divider" class="mb-4" style="width: 3rem; height: 0.75rem;">
-			<p class="text-center">Constructing personas and user experience storyboards for public-view interfaces
+			<p class="text-center">Creating a React web application that helps students at Brown explore course options
       </p> 
       <a style="text-decoration:none" href="https://serene-spire-14211.herokuapp.com/" target="_blank" class="text-light btn-lg mb-4 page-btn">View Full Project</a> 
-			<img src="./img/persona.png" alt="persona cover" class="cover">
+			<img src="./img/cover.png" alt="persona cover" class="cover">
 		</div>
 		<div class="d-flex flex-column pt-3 pb-4 align-items-center">
 			<div class="container">
@@ -64,53 +64,47 @@
 						<p class="lead">Problem Statement</p>
 					</div>
 					<div class="col-9">
-						<p class="">Users encounter challenges when interacting with interfaces.<br> 
-							How can we better understand user groups & user interaction through the use of personas & storyboards?</p>
+						<p>Students at Brown University often have to go back and forth between <b>Courses@Brown</b> & <b>The Critical Review</b> to get statistics/ratings on courses they're interested in</p>
+						<p>How can we skip the repetitive manual work & combine the two using a React web application ?</p>
 					</div>
 				</div>
 			</div>
 			<div class="text-left">
 				<h3 class="mt-5 mb-4">Overview</h3>
-				<p>In this project, I explored how users interact with an interface that is accessible to the public, and create personas & 
-					storyboards based on my observation and interviews with users. 
-				</p>
+				<p>In this project, I created a web application that allows users to filter courses based on its <u>teaching mode</u> & whether or not it satisfies the <u>WRIT requirement</u>. Users can also order the courses 
+          by the average expected <u>weekly time committment</u> in order to find the perfect course for them.
 				<p>
-					Specifically, my target interface is a <b>ticketing kiosk</b> located near the gates of every metro station in Taipei, Taiwan. 
+          Essentially, it provides similar information as the course reviewing website for Brown, The Critical Review. However, it allows users to search based on selected criteria, rather then selecting a course first and then 
+          viewing its statistics/ratings.
         </p>
-        <p>I closely observed the different steps of the kiosk system that users have to navigate throug in order to purchase a ticket:</p>
+        <p>Shown below is the interface & an example of using it to filter + sort courses:</p>
         <div class="container">
           <div class="row">
-            <div class="col"><img src="img/start.jpg" alt="start screen" class="mid-pic"></div>
-            <div class="col"><img src="img/select.jpg" alt="start screen" class="mid-pic"></div>
-            <div class="col"><img src="img/price.jpg" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/initial.png" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/filter.png" alt="start screen" class="mid-pic"></div>
           </div>
         </div>
 			</div>
     </div>
     <div class="d-flex flex-column pt-3 pb-4 align-items-center">
 			<div class="text-left">
-				<h3 class="mt-5 mb-4">Persona</h3>
+				<h3 class="mt-5 mb-4">Usability Principles</h3>
 				<p>
-          By both observing & interviewing users of the ticketing kiosk, I was able to create personas for two groups of users:
+          In order to become an effective tool, the application follows a few design principles to make the application more usable.
 				</p>
-        <div class="container mb-3">
-          <div class="row">
-            <div class="col"><img src="img/persona1.png" alt="persona 1" class="mid-pic"></div>
-            <div class="col"><img src="img/persona2.png" alt="persona2" class="mid-pic"></div>
-          </div>
-        </div>
-        <h3 class="mt-4 mb-4">Storyboard</h3>
-        <p>
-          I also created a storyboard, documenting the persona motive, challenges faced by persona, and characteristics & goals of the persona for one of my 
-          persona, <b>Calm Caroline</b>:
-        </p>
-        <img src="img/storyboard.png" alt="storyboard" class="mid-pic">
+        <ul class="ml-4">
+          <li><p>The most interactable part of the app, the navigation bar with buttons for filters & sorting orders, has a slight shade of grey as its background color that makes it stand out from the rest of the app.</p></li>
+          <li><p>The application has a intuitive layout, with a view of the courses & the conditions to be applied to the view (e.g. filters) on one side, and the course cart on the other. When a user adds a course to their cart, 
+            they can immediately see it appear on the right, which offers a quick confirmation as a reponse to their action.</p></li>
+          <li><p>It also has great memorability both due to the ease of completing desired tasks on the interface, as well as the fact that since most people are already familiar to the idea of carts (from online shopping or physical carts).
+          </p></li>
+        </ul>
+
         <h3 class="mt-5 mb-4">Key Conclusions</h3>
         <ul class="ml-4">
-          <li><p>Interview questions are a key to getting insight on user motives, goals, and challenges</p></li>
-          <li><p>In order to improve an interface, we must understand what it's currently lacking, i.e. its key challenges</p></li>
-          <li><p>Since emotions, characteristics & goals play a huge role into how users use & understand interfaces, storyboard allows us to 
-            document a generalized user journey for a group of users (or for a persona), and makes it easier to see what challenges these user have in common.
+          <li><p>Breaking functionalities into functions & components gives your code more organization, reusability & readability</p></li>
+          <li><p>By using the props field of React components, parent & child objects can share information and change each other's state/rendered information.</p></li>
+          <li><p>The application can perhaps be furthered expanded by scraping information from Courses@Brown & The Critical Review directly.
           </p></li>
         </ul>
 			</div>
