@@ -57,7 +57,7 @@
       <a style="text-decoration:none" href="https://glacial-waters-07137.herokuapp.com/" target="_blank" class="text-light btn-lg mb-4 page-btn">View Full Project</a> 
 			<img src="./img/itdesign_cover.png" alt="iterative cover" class="cover">
 		</div>
-		<div class="d-flex flex-column pt-3 pb-4 align-items-center">
+		<div class="d-flex flex-column pt-3 pb-3 align-items-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-3 problem">
@@ -71,52 +71,161 @@
 			</div>
 			<div class="text-left">
 				<h3 class="mt-5 mb-4">Overview</h3>
-				<p>In this project, I explored how users interact with an interface that is accessible to the public, and create personas & 
-					storyboards based on my observation and interviews with users. 
+				<p>Statiq is a company based in the New Delhi suburb of Gurugram, India and a member of the YCombinator Class of 2020. It allows individuals to find & reserve Elective Vehicle (EV) charging stations through its app.
+        </p>
+        <p>Essentially, it aims to build India's largest EV charging network.</p>
+				<p>
+					We decided to design a mobile app for Statiq due to the following reasons:
+        </p>
+        <ul class="ml-3">
+          <li><p>Users will most likely be using the app when they're on the road, looking for EV-charging stations nearby.</p></li>
+          <li><p>Users can use the map and navigation features of the app to get to the chosen stations using the phone.</p></li>
+        </ul>
+
+        <h3 class="mt-5 mb-4">Features & Goals</h3>
+				<p>
+          Our goal is to build an app that is easy to use, especially to first-time users, and provides a streamlined process of booking stations.
+        </p>
+        <p>In order to do so, we decided that the app would have a Google Maps-like interface (since most people are already familiar with it) to show various charging options near the user's current location 
+          & show the availability, waiting time, distance, rating, types of EV that can be charged to help users choose which station to go to, and a navigation feature to bring the user to the station.</p>
+        <h3 class="mt-4 mb-4">Target Users</h3>
+        <p>
+          We think anyone who owns an electric vehicle could benefit from this interface as it helps them locate charging stations faster and make reservations easier.
+        </p>
+
+        <h3 class="mt-5 mb-4">Design Iteration I: Initial Sketches</h3>
+				<p>Each member in our group brainstormed a set of 3-4 screens in order to start off with a diverse set of possible layouts.
 				</p>
 				<p>
-					Specifically, my target interface is a <b>ticketing kiosk</b> located near the gates of every metro station in Taipei, Taiwan. 
+          Coincidentally, a few of us ended up focusing on much different aspects of the app: some had more detailed reservation processes, 
+          others touched on things like past reservation records, personal settings, etc.
         </p>
-        <p>I closely observed the different steps of the kiosk system that users have to navigate throug in order to purchase a ticket:</p>
+        <p>The set of sketches are shown below:</p>
         <div class="container">
           <div class="row">
-            <div class="col"><img src="img/start.jpg" alt="start screen" class="mid-pic"></div>
-            <div class="col"><img src="img/select.jpg" alt="start screen" class="mid-pic"></div>
-            <div class="col"><img src="img/price.jpg" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/1.1.png" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/1.2.png" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/1.3.png" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/1.4.png" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/Sketch1.3.png" alt="start screen" class="mid-pic"></div>
           </div>
-        </div>
-			</div>
-    </div>
-    <div class="d-flex flex-column pt-3 pb-4 align-items-center">
-			<div class="text-left">
-				<h3 class="mt-5 mb-4">Persona</h3>
-				<p>
-          By both observing & interviewing users of the ticketing kiosk, I was able to create personas for two groups of users:
-				</p>
-        <div class="container mb-3">
+          <img src="img/sketches/Sketch2.png" alt="sketch" class="mid-pic">
           <div class="row">
-            <div class="col"><img src="img/persona1.png" alt="persona 1" class="mid-pic"></div>
-            <div class="col"><img src="img/persona2.png" alt="persona2" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/Sketch3.1.png" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/Sketch3.2.png" alt="start screen" class="mid-pic"></div>
+          </div>
+          <div class="row mt-4">
+            <div class="col"><img src="img/sketches/Sketch4.1.png" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/Sketch4.2.png" alt="start screen" class="mid-pic"></div>
+            <div class="col"><img src="img/sketches/Sketch4.3.png" alt="start screen" class="mid-pic"></div>
           </div>
         </div>
-        <h3 class="mt-4 mb-4">Storyboard</h3>
-        <p>
-          I also created a storyboard, documenting the persona motive, challenges faced by persona, and characteristics & goals of the persona for one of my 
-          persona, <b>Calm Caroline</b>:
+
+        <h3 class="mt-5 mb-4">Design Iteration II: Lo-Fi Wireframes</h3>
+				<p>We merged selected pages & designs from each set of sketches to build an interface that demonstrates our solution to the startup's goal of reducing pollution by connecting the users & owners of EV charging stations.
+				</p>
+				<p>
+          We categorized each functionality into groups, and designed a navigation bar at the bottom that contains the 3 main feature groups: the Map Page, Profile Page, and History Page.
         </p>
-        <img src="img/storyboard.png" alt="storyboard" class="mid-pic">
+        <p>The set of sketches are shown below:</p>
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-3"><img src="img/wireframes/1.png" alt="start screen" class="mid-pic mb-3"></div>
+            <div class="col-3"><img src="img/wireframes/2.png" alt="start screen" class="mid-pic mb-3"></div>
+            <div class="col-3"><img src="img/wireframes/3.png" alt="start screen" class="mid-pic mb-3"></div>
+            <div class="col-3"><img src="img/wireframes/4.png" alt="start screen" class="mid-pic mb-3"></div>
+            <div class="col-3"><img src="img/wireframes/5.png" alt="start screen" class="mid-pic mb-3"></div>
+            <div class="col-3"><img src="img/wireframes/6.png" alt="start screen" class="mid-pic mb-3"></div>
+            <div class="col-3"><img src="img/wireframes/7.png" alt="start screen" class="mid-pic mb-3"></div>
+          </div>
+        </div>
+
+        <h3 class="mt-5 mb-4">Design Iteration III: Hi-Fi Interactive Mockup</h3>
+				<p>We then created an interactive Hi-Fi mockup based on our wireframes, actually implementing the layout, buttons, screen transitions and more.
+				</p>
+        <div class="container">
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1120" height="630" class="mockup"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVN8DjG48uh8Zpid1AMPJPp%2FStatiq-Hi-fi%3Fnode-id%3D4%253A4%26viewport%3D333%252C306%252C0.2295447289943695%26scaling%3Dscale-down"
+            allowfullscreen></iframe>
+        </div>
+
+        <h3 class="mt-5 mb-4">Design Iteration IV: Incorporating Studio Critique</h3>
+				<p>
+          We brought our interactive mockup to studio & received feedback & suggestions on how to further improve the app. We then incorporated these feedback into our design.
+        </p>
+        <p class="lead ma-5" style="text-align:left;">
+          Studio Critique
+        </p>
+        <ul>
+          <li>It has good affordances and is easy to navigate.</li>
+          <li>Clarification needed on why it is necessary to show waiting time: if there are empty spots, shouldn’t
+            there be no waiting time?</li>
+          <li>Suggestion to change the graph of monthly spendings to a map of locations/stations visited.</li>
+          <li>The “Swipe Up To Navigate” option at the end of reservation is a bit confusing because users are unsure whether that refers to a separate navigation mode or if it just
+            brings them back to the homepage map.
+          </li>
+        </ul>
+        
+				<p class="lead ma-5" style="text-align:left;">
+          Improvements Made
+        </p>
+        <ul>
+          <li>Stations that have available spots will show “No Waiting Time”, and the app would only show an estimated waiting time for stations that are currently full.</li>
+          <li>We decided to stick with showing a monthly cost estimator because price would probably be the primary concern for new users. Users can also see the locations they 
+            visited through their own charging history</li>
+          <li>We changed the directions from “Swipe Up To Navigate” to “Swipe Up to Enter Navigation Mode” to make it
+            clearer that it is a separate functionality (and not just returning back to homepage).</li>
+        </ul>
+
+        <h3 class="mt-5 mb-4">Design Iteration V: User Testing</h3>
+				<p>
+          We uploaded our mockup to UserTesting.com, where, given a selected task & a set of questions, real users from around the world will 
+          try to accomplish the objective on our app, and give us feedback by answering our interview questions.
+        </p>
+        <p class="lead ma-5" style="text-align:left;">
+          Main Objective: <b>Reserve a Type 2 Charger at Park Station @ 3:45pm</b>
+        </p>
+        <p class="lead ma-5" style="text-align:left;">
+          Task Questions
+        </p>
+        <ol>
+          <li>Without clicking on them, what do you think the buttons/icons on the bottom navigation bar do?</li>
+          <li>On the page showing "Reservation Confirmed," if you were looking to go to the charging station, what action would you take next?</li>
+          <li>Throughout the process, was it clear & intuitive which buttons/items to click on in order to complete the task and move on to the next step?</li>
+        </ol>
+        
+        <p class="lead ma-5" style="text-align:left;">
+          Feedback Questions
+        </p>
+        <ol>
+          <li>What did you like about this prototype?</li>
+          <li>Is there anything particularly confusing about this prototype?</li>
+          <li>What would you change to improve the prototype (making it easier to use/navigate)?</li>
+          <li>Is there anything you want to talk about that has not been asked?</li>
+        </ol>
+
+				<p class="lead ma-5 pa-2" style="text-align:left;">
+          Results
+        </p>
+        <ul>
+          <li>We observed that users typically made little to no errors and have no trouble navigating through the process on their first try, sometimes completing the next steps intuitively before even being asked to or given hints.</li>
+          <li>The fact that most users were able to successfully complete the task on the first try, some even without needing to consult the sub-tasks, shows that the interface is intuitive enough and has good affordances that allows users to know how to go from one step to the next.</li>
+          <li>Users also gave positive review when asked the interview questions: most of them thought the app was really inuititve and easy to use, and, throughtout the process, there were no major parts where they felt confused.</li>
+        </ul>
+
+        <h3 class="mt-5 mb-4">Potential Changes for the Next Step</h3>
+        <p class="ml-3">Besides changing the navigation text instructions from "Swipe Up to Naviage" to "Swipe Up to Enter Navigation Mode" to make it clear that navigation is a separate functionality that is different than the maps homepage, 
+          we could also consider adding an additional screen in our hi-fi mockup to showcase what the specific page would look like to users
+        </p>
+
         <h3 class="mt-5 mb-4">Key Conclusions</h3>
         <ul class="ml-4">
-          <li><p>Interview questions are a key to getting insight on user motives, goals, and challenges</p></li>
-          <li><p>In order to improve an interface, we must understand what it's currently lacking, i.e. its key challenges</p></li>
-          <li><p>Since emotions, characteristics & goals play a huge role into how users use & understand interfaces, storyboard allows us to 
-            document a generalized user journey for a group of users (or for a persona), and makes it easier to see what challenges these user have in common.
-          </p></li>
+          <li><p>Receiving user feedback is incredibly important to making an inuitive app with good user experience. The effects of a lot of design decisions remain largely ambiguous until actual users share their feedback from a different perspective from the designers.</p></li>
+          <li><p>Having multiple iterations allows us to make modifications to our groundwork design early on, and get feedback on features throughout the development lifecycle.</p></li>
         </ul>
 			</div>
-		</div>
+    </div>
 	</div>
-  <!-- <div class="d-flex flex-column blankets" style="background: url(./img/persona_cover.png) center"></div> -->
 
   <footer class="bg-white text-center py-3">
     <div class="container">

@@ -309,7 +309,6 @@ a.link-btn:focus {
     font-size: 15px;
 }
 
-/* .page-btn:hover,
-.page-btn:focus {
-    filter: brightness(0.6);
-} */
+.mockup {
+    width: 100%;
+}
